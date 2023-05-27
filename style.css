@@ -1,0 +1,41 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-left: 25px;
+}
+
+h1,
+h2 {
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.party,
+.party-details {
+  margin: 0px 25px;
+  padding-bottom: 15px;
+  border-bottom: 5px dashed;
+}
+
+.details-button {
+  background-color: dodgerblue;
+  border-radius: 5px;
+  border: solid dodgerblue;
+}
+
+.delete-button {
+  background-color: orangered;
+  border-radius: 5px;
+  border: solid orangered;
+}
+
+button:hover {
+  background-color: grey;
+  border-radius: 5px;
+  border: solid grey;
+}
